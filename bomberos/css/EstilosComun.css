@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #454545;
+    color: black;
+    font-family: arial;
+    font
+}
+.Cabecera{
+    width: 800px;
+    height: 375px;
+    margin: auto;
+    position: relative;
+    border: 2px solid;
+}
+#imagenCabecera{
+    max-width:100%;
+	height:auto;
+}
+#logotipo{
+    width: 250px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
+.tituloPagina{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: underline;   
+}
+.pie{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;	
+	margin-top: 10px;
+}
+
+
+

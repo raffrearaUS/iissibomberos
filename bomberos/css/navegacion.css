@@ -1,0 +1,71 @@
+nav{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #606060;
+}
+nav ul {
+	
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;
+}
+nav li {
+    float: left;
+    border-right: 2px solid;
+}
+#sesion,#gestion{
+    border-left: 2px solid;
+}
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav li a:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav{
+    	width: 80%;
+    }
+    nav ul{
+    	display: flex;
+    }
+    nav li{
+    	flex-grow: 1;
+    }
+    #sesion{
+    	border-left: none;
+    } 
+    #gestion{
+		border-left: none;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	nav ul{
+		flex-direction: column;
+	}
+	nav li a{
+		text-align: left;
+	}
+	nav li{
+		border-bottom: 2px solid;
+	}
+	#sesion{
+		border-bottom: none;
+	}
+	#gestion{
+		border-bottom: none;
+	}
+}

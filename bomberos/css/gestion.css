@@ -1,0 +1,28 @@
+
+ul{
+	list-style: none;
+}
+.lista li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.lista li{
+	padding-bottom: 5px;
+}
+
+.cajaGestion{
+	margin: auto;
+	width: 400px;
+	background-color: #606060;
+	border: 2px solid;
+	margin-top: 10px;
+	text-align: center;
+	padding: 15px;
+}
+
+.lista li a:hover{
+	color: #FFFFFF;
+	transition: 0.4s;
+	
+}

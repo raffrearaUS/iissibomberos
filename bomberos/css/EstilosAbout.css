@@ -1,0 +1,64 @@
+h2,h3{
+    font-size: 30px;
+    padding: 0px 0px 10px; /*margen interior : arriba, izquierda, abajo, derecha*/
+    margin: 5px; /*margen exterior: 5px tanto por arriba, abajo, derecha, izquierda*/
+    color: #000;
+    
+}
+#turnos{
+	text-align:center;
+}
+#lista_turnos{
+	text-align: center;
+	list-style: none;
+}
+
+#divTurnos{
+	margin: auto;
+    border: 2px solid; 
+    width: 100%;
+    padding: 4px;
+    padding-bottom: 10px;
+    background-color: #606060;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+
+
+.contenido{
+    margin: auto;
+    border: 2px solid; 
+    width: 100%;
+    padding: 4px;
+    padding-bottom: 4px;
+    background-color: #606060;
+    margin-top: 10px;
+    max-width: 1000px;
+    
+}
+.contenido p{
+    text-indent: 20px; /*Sangria*/
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.contenido p a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.contenido p a:hover{/*al pasar el raton*/
+    color: #FFFFFF;
+}
+.contenido ul{
+    list-style: none;
+}
+.contenido ul li{
+	text-indent: 20px;
+	font-size: 16px;
+}
+
+
